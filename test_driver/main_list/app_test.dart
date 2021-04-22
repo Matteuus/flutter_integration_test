@@ -31,7 +31,7 @@ void main() {
 
       final summary = new TimelineSummary.summarize(timeline);
       await summary.writeSummaryToFile('scrolling_summary', pretty: true);
-      await summary.writeSummaryToFile('scrolling_timeline', pretty: true);
+      await summary.writeTimelineToFile('scrolling_timeline', pretty: true);
     });
   });
 }
